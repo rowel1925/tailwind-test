@@ -1,0 +1,14 @@
+.carousel {
+    width: 80%;
+}
+
+@media screen and (max-width: 1360px) {
+    .carousel {
+        width: 100%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .carousel {
+        width: 100%;
+    }
+  }

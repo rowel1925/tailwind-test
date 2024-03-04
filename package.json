@@ -1,0 +1,17 @@
+{
+  "name": "zanrly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tailwind-build": "tailwindcss build -i src/styling.css -o public/styling.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "flickity": "^3.0.0"
+  }
+}
