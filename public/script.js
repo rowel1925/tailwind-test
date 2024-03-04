@@ -1,12 +1,18 @@
+const actionToggle = document.querySelector('.mobile-menu.hidden');
+
+window.addEventListener('resize', function() {
+  if (window.innerWidth >= 769) {
+    actionToggle.style.display = 'none';
+  }
+});
+
 function toggleVisibility() {
-    const button = document.querySelector('.mobile-menu.hidden');
-    if (button.style.display === 'none') {
-      button.style.display = 'block';
+    if (actionToggle.style.display === 'none') {
+      actionToggle.style.display = 'block';
     } else {
-      button.style.display = 'none'; 
+      actionToggle.style.display = 'none'; 
     }
   }
 function toggleClose() {
-    const close = document.querySelector('.mobile-menu.hidden');
-    close.style.display = 'none';
-  }
+  actionToggle.style.display = 'none';
+}
